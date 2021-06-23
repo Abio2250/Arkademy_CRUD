@@ -29,7 +29,7 @@
                     <tr>
                         <td>{{ $no++ }}</td>
                         <td>{{ $datas->nama_produk }}</td>
-                        <td>{{ $datas->Keterangan }}</td>
+                        <td>{{ $datas->keterangan }}</td>
                         <td>{{ $datas->harga }}</td>
                         <td>{{ $datas->jumlah }}</td>
                         <td>
