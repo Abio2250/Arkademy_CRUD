@@ -16,7 +16,9 @@ class ProdukController extends Controller
     {
         //
         $data = Produk::all();
+        // dd($data);
         return view('produk',compact('data'));
+
     }
 
     /**
